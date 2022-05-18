@@ -14,6 +14,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Zambia_Police_Service.WEB;
+using Zambia_Police_Service_Implementation.DALL.DI;
+using Zambia_Police_Service_Implementation.DALL.Implementations;
+using Zambia_Police_Service_Repository.DALL.Interfaces;
 
 namespace Zambia_Police_Service.DALL
 {
@@ -36,6 +39,8 @@ namespace Zambia_Police_Service.DALL
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+           services.AddTransient<IService, GenericImplementation>();
 
             services.AddIdentity<IdentityUser, IdentityRole>(options =>
             {
