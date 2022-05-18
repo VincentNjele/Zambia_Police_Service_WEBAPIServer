@@ -1,0 +1,55 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "Zanbia_Police_ServiceContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "Zambia_Police_Service.WEB",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Complaints]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Crimes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MissingPersons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PoliceAdmins]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PoliceUsers]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-7C8C1I1\\SQLEXPRESS.Zanbia_Police_Service",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
