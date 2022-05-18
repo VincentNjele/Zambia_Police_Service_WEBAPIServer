@@ -17,6 +17,7 @@ namespace Zambia_Police_Service.WEB.Controllers
         public UserController(IService service)
         {
             _service = service;
+
         }
 
         [HttpPost]

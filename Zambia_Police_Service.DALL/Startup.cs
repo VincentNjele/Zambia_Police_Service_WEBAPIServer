@@ -40,7 +40,7 @@ namespace Zambia_Police_Service.DALL
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-           services.AddTransient<IService, GenericImplementation>();
+            services.AddTransient<IService, GenericImplementation>();
 
             services.AddIdentity<IdentityUser, IdentityRole>(options =>
             {
