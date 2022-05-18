@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zambia_Police_Service_Repository.DALL\Zambia_Police_Service_Repository.DALL.csproj" />
+  </ItemGroup>
+
+</Project>
